@@ -1,60 +1,99 @@
 <!DOCTYPE html>
-<!--                                                                 __                                                       
-  ________ ________   ___________    ______ ____  ___________  _____/  |_    _____   ____   ______ __________    ____   ____  
- /  ___/  |  \____ \_/ __ \_  __ \  /  ___// __ \/ ___\_  __ \/ __ \   __\  /     \_/ __ \ /  ___//  ___|__  \  / ___\_/ __ \ 
- \___ \|  |  /  |_> >  ___/|  | \/  \___ \\  ___|  \___|  | \|  ___/|  |   |  Y Y  \  ___/ \___ \ \___ \ / __ \/ /_/  >  ___/ 
-/____  >____/|   __/ \___  >__|    /____  >\___  >___  >__|   \___  >__|   |__|_|  /\___  >____  >____  >____  |___  / \___  >
-     \/      |__|        \/             \/     \/    \/           \/             \/     \/     \/     \/     \/_____/      \/ 
-  Hello and welcome: This work is still in progress and as I learn more tips,tricks,and JavaScript
-  I hope for this to grow and blossom into something great!🦊 -->
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jasmine Christine::Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-    <link href="static/css/style.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&family=Zen+Loop&display=swap" rel="stylesheet">
+  <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  <title>Jasmine Christine::Portfolio</title>
 </head>
+
 <body>
-    <header class="container">
-        <div class="row">
-          <h1>Jasmine Christine</h1>
-          <nav>
-              <div class="btn-group">
-                  <a class="btn btn-group btn-pink" href="about.html">
-                    About Me
-                  </a>
-                  <a class="btn btn-group btn-pink" href="education.html">
-                    Education
-                  </a>
-                  <a class="btn btn-group btn-pink" href="experience.html">
-                    Experience
-                  </a>
-                </div>
-          </nav>
-      </header>
-      <section class="jumbotron">
-          <div class="container">
-              <h2>Software Developer & Artist</h2>
-              <h3>Python - JavaScript - Adobe Creative</h3>
-          </div>
-      </section>
-      <footer class="container">
-          <div class="row">
-              <p class="col-sm-4">&copy; 2021 Jasmine Christine</p>
-              <div class="col-sm-2">
-                <a href="https://www.linkedin.com/in/jasmine-risor/" target="_blank">LinkedIn</a>
-              </div>
-              <div class="col-sm-2">
-                  <a href="https://www.upwork.com/freelancers/~015c445741ec90e6d7" target="_blank">UpWork</a>
-              </div>
-              <div class="col-sm-2">
-                  <a href="https://www.instagram.com/xlunarkitsunex/" target="_blank">Instagram</a>
-              </div>
-          </div>
-      </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <nav>
+    <img class="logo" src="src/images/lunar-kitsune-logo.png" alt="lunar-kitsune-logo" />
+    <ul class="nav-bar">
+      <li><a href="#about-me">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+    </ul>
+    </div>
+  </nav>
+
+  <div class="styled-break"></div>
+
+  <div class="hero">
+    <div class="hero-info">
+      <h1 id="name">Jasmine Christine</h1>
+      <h2 id="study">- Web developer & Artist -</h2>
+      <div class="styled-break"></div>
+    </div>
+    <div>
+      <img class="hero-image" src="src/images/ux.png" alt="image" />
+    </div>
+  </div>
+
+  <section id="about-me">
+    <div class="about-me">
+      <img class="avatar" id="shadow" src="src/images/jasheadshot.jpeg" alt="Jasmine Christine Headshot" />
+    </div>
+    <div class="info">
+      <h1><a name="about-me" id="about">About Me</a></h1>
+      <div class="styled-break"></div>
+      <p class="about">
+        Doodler of the fantastical and weird, and aspiring developer. I am
+        currently a student, who's field of study is web development. I
+        discovered my love for web design and development after many months of
+        diving into various projects and self learning. I have experimented
+        with things ranging from robotics work, to ethical hacking - yet this
+        seemed to click the best and be my absolute favorite to work with. I
+        am excited to continue my learning and journey on this path, and have
+        the opportunity to be able to mix that with my creative passion and
+        skills!
+      </p>
+    </div>
+  </section>
+
+  <section id="me-icons">
+    <img class="me-icons" id="shadow" src="src/images/036-color-palette.png" />
+    <img class="me-icons" id="shadow" src="src/images/005-aries.png" />
+    <img class="me-icons" id="shadow" src="src/images/008-coding-1.png" />
+    <img class="me-icons" id="shadow" src="src/images/018-fox-5.png" />
+    <img class="me-icons" id="shadow" src="src/images/029-graphic-design.png" />
+  </section>
+  <div class="styled-break"></div>
+  
+  <section id="education">
+    <div class="education">
+      <img class="" src="#" alt="" />
+      <div class="info">
+        <h1><a name="education" id="edu">Education</a></h1>
+        <div class="styled-break"></div>
+      </div>
+    </div>
+  </section>
+  <div class="styled-break"></div>
+
+  <section id="experience">
+    <div class="experience">
+      <img class="" src="#" alt="" />
+      <div class="info">
+        <h1><a name="experience" id="exp">Experience</a></h1>
+        <div class="styled-break"></div>
+      </div>
+    </div>
+  </section>
+  <div class="styled-break"></div>
+
+  <footer>
+    <ul class="footer">
+      <li id="github"><a href="https://github.com/JasChristine">GitHub</a></li>
+      <li id="linkedin"><a href="https://www.linkedin.com/in/jasmine-risor/">LinkedIn</a></li>
+      <li id="instagram"><a href="https://www.instagram.com/xlunarkitsunex/">Instagram</a></li>
+    </ul>
+  </footer>
 </body>
 </html>
