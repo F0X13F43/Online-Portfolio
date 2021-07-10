@@ -15,7 +15,7 @@ nav {
 }
 
 .nav-bar {
-  position:fixed;
+  position: fixed;
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
@@ -46,10 +46,16 @@ section {
   justify-content: center;
   flex-wrap: wrap;
   padding: 50px 0 0 0;
+  background-image: linear-gradient(#5c4d7d, #2e6f95);
 }
 
 li {
   margin: 10px 25px;
+  list-style-type: none;
+}
+
+ul {
+  background-color: #0091ad;
 }
 
 .logo {
@@ -58,7 +64,6 @@ li {
   height: 50px;
   margin: 0 25px;
   margin-top: 10px;
-  border-radius: 30px;
 }
 
 .info {
@@ -75,42 +80,63 @@ li {
   font-size: 50px;
 }
 
-#about-me {
-  background-color: #5c4d7d;
-}
-
-#about {
-  font-family: "Zen Loop", cursive;
-  font-size: 45px;
-}
-
-.about {
+.filler {
   background-color: #ddd5d0;
   padding: 30px 30px 30px 30px;
   border-radius: 30px;
 }
-.about-me {
+.section-info {
   width: 500px;
   display: flex;
   margin: 50px;
   justify-content: space-evenly;
 }
 
-.me-icons {
-  width: 32px;
-  height: 32px;
+.button {
+  border: 0;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  line-height: 2;
+  color: #ddd5d0;
+  text-shadow: 1px 1px 1px black;
+  background-color: rgba(160, 26, 88, 1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 145, 173, 0.2),
+    rgba(46, 111, 149, 0.2) 30%,
+    rgb(69, 94, 137)
+  );
+  box-shadow: inset 2px 2px 3px #63173e, inset -2px -2px 3px black;
+  border-radius: 20px;
+}
+
+.button:hover {
+  background-color: rgba(160, 26, 88, 1);
+}
+
+.button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 133, 161, 0.6);
+}
+
+.project-icons {
+  width: 128px;
+  height: 128px;
   border-radius: 10%;
-  background-color: #63173e;
   margin: 10px;
 }
 
-#me-icons {
-  background-image: linear-gradient(#5c4d7d, #2e6f95);
-  padding-bottom: 30px;
+.project-page-icons {
+  width: 128px;
+  height: 128px;
+  border-radius: 10%;
+  margin: 10px;
 }
 
 #shadow {
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 3px 3px 6px black;
 }
 
 .hero {
@@ -126,48 +152,21 @@ li {
 }
 
 .hero-image {
-  height: 300px;
-  width: 300px;
+  height: 500px;
+  width: 500px;
   margin: 50px;
-  border-radius: 30px;
 }
 
 .avatar {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
 }
 
-#edu {
-  font-family: "Zen Loop", cursive;
-  font-size: 45px;
-}
-
-#education {
-  background-image: linear-gradient(#2e6f95, #723c70);
-}
-
-.education {
-  width: 500px;
-  display: flex;
-  margin: 50px;
-  justify-content: space-evenly;
-}
-
-#exp {
-  font-family: "Zen Loop", cursive;
-  font-size: 45px;
-}
-
-#experience {
-  background-image: linear-gradient(#723c70, #1780a1);
-}
-
-.experience {
-  width: 500px;
-  display: flex;
-  margin: 50px;
-  justify-content: space-evenly;
+.section-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
 }
 
 footer {
@@ -185,27 +184,21 @@ footer {
   margin: 0 auto;
 }
 
-#github {
-  margin-left: 60px;
-  list-style-image: url("images/002-github.png");
-}
-
-#linkedin {
-  margin-left: 60px;
-  list-style-image: url("images/001-linkedin.png");
-}
-
-#instagram {
-  margin-left: 60px;
-  list-style-image: url("images/003-instagram.png");
-}
-
 .styled-break {
   width: 100%;
   height: 5px;
   border-radius: 2.5px;
   margin: 30px 0 30px 0;
   background-color: #63173e;
+}
+
+.main-break {
+  width: 100%;
+  height: 5px;
+  border-style: dashed;
+  border-radius: 2.5px;
+  margin: 30px 0 30px 0;
+  background-color: #5c4d7d;
 }
 
 @media only screen and (max-width: 500px) {
