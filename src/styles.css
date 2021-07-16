@@ -51,11 +51,13 @@ section {
 
 li {
   margin: 10px 25px;
-  list-style-type: none;
 }
 
-ul {
-  background-color: #0091ad;
+
+.school {
+  border-radius: 30px;
+  background-color: #1780a1;
+  padding: 10px 25px;
 }
 
 .logo {
