@@ -8,7 +8,7 @@ body {
   font-family: "Open Sans Condensed", sans-serif;
 }
 canvas {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
@@ -30,6 +30,30 @@ canvas {
 }
 .nav-link {
   font-size: 20px;
-  color: #f5e7ea !important;
   text-transform: uppercase;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+p {
+  background-color: #efbec7;
+  box-shadow: inset 0 0 0 1000px rgba(198, 213, 241, 0.4);
+  font-size: 25px;
+  border-radius: 30px;
+  color: #0a0903;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
+}
+.footer-icon {
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.profile {
+  height: auto;
+  width: 300px;
+  max-width: 100%;
+  border-radius: 30px;
 }
