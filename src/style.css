@@ -1,0 +1,35 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #0a0903 !important;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.eeva {
+  box-shadow: inset 0 0 0 1000px rgba(198, 213, 241, 0.3);
+  border-radius: 50%;
+}
+.hero {
+  color: #f5e7ea;
+  text-align: center;
+  margin-top: 150px;
+}
+.hero-title {
+  font-size: 70px;
+}
+.hero-subtitle {
+  font-size: 30px;
+}
+.nav-link {
+  font-size: 20px;
+  color: #f5e7ea !important;
+  text-transform: uppercase;
+}
