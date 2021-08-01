@@ -65,10 +65,11 @@ p {
 }
 .progress {
   background-color: #0A0903;
+  height: 32px;
 }
 .progress-bar {
   color: #0A0903;
-  font-size: 12px;
+  font-size: 24px;
 }
 #progress-one {
   background-color: #ebadb9;
