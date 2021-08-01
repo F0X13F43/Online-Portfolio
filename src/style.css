@@ -59,7 +59,32 @@ p {
 }
 .profile {
   height: auto;
-  width: 300px;
+  width: 250px;
   max-width: 100%;
   border-radius: 30px;
+}
+.progress {
+  background-color: #0A0903;
+}
+.progress-bar {
+  color: #0A0903;
+  font-size: 12px;
+}
+#progress-one {
+  background-color: #ebadb9;
+}
+#progress-two {
+  background-color: #7795bb;
+}
+#progress-three {
+  background-color: #c6d5f1;
+}
+#progress-four {
+  background-color: #f6dfe3;
+}
+ul {
+  text-align: center;
+  list-style-type: none;
+  font-size: 20px;
+  color: #0A0903;
 }
