@@ -2,69 +2,118 @@
 
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../src/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../src/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../src/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../src/favicon_io/site.webmanifest" />
+    <link rel="stylesheet" type="text/css" href="../src/style.css" />
+    <title>About Me</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet" />
-  <link rel="apple-touch-icon" sizes="180x180" href="../src/favicon_io/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="../src/favicon_io/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="../src/favicon_io/favicon-16x16.png" />
-  <link rel="manifest" href="../src/favicon_io/site.webmanifest" />
-  <link rel="stylesheet" type="text/css" href="../src/style.css" />
-  <title>About Me</title>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="../home.html">
-        <img src="../src/images/python.png" alt="python" class="eeva" />
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav me-auto">
-          <a class="nav-link" href="about.html">About</a>
-          <a class="nav-link active">&lt; Education &gt;</a>
-          <a class="nav-link" href="experience.html">Experience</a>
-        </div>
-        <div class="dropdown-divider border-secondary my-3"></div>
-        <div class="navbar-nav me-0">
-          <a class="nav-link" href="projects.html">Projects</a>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="../home.html">
+          <img src="../src/images/python.png" alt="python" class="eeva" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav me-auto">
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link active">&lt; Education &gt;</a>
+            <a class="nav-link" href="experience.html">Experience</a>
+          </div>
+          <div class="dropdown-divider border-secondary my-3"></div>
+          <div class="navbar-nav me-0">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-  <main class="container">
-    <div class="hero">
-      <h1>Education</h1>
-      <hr/>
-  </main>
-  <canvas id="canvasbg"></canvas>
-  <canvas id="canvas"> </canvas>
-  <footer class="footer mt-auto fixed-bottom py-3 bg-dark text-center">
-    <div class="container">
-      <span class="text-muted">&copy;Jasmine Christine.</span>
-      <a href="https://www.linkedin.com/in/jasmine-risor/" alt="linkedin" target="_blank"><img class="footer-icon"
-          src="../src/images/003-linkedin.png" /></a>
-      <a href="https://www.instagram.com/xlunarkitsunex/" alt="instagram" target="_blank"><img class="footer-icon"
-          src="../src/images/004-instagram.png" /></a>
-      <a href="https://github.com/JasChristine" alt="github" target="_blank"><img class="footer-icon"
-          src="../src/images/002-github.png" /></a>
-    </div>
-  </footer>
-  <script src="../src/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-</body>
-
+    </nav>
+    <main class="container mb-5">
+      <div class="hero">
+        <h1>Education</h1>
+        <hr />
+        <img class="img-fluid" src="#" />
+        <div class="backdrop">
+          <p>
+            I am a budding Front-End Developer in Ohio. I have a passion for
+            drawing, design, and DIY. <br />Organized chaos, a problem solver,
+            and a creative thinker.<br />
+            Fan of gaming, YouTube binging, and fantasy. <br />
+            I am a family person, and a mother to a tiny human, crazy cat, and
+            an adorable ball python.
+          </p>
+        </div>
+      </div>
+    </main>
+    <canvas id="canvasbg"></canvas>
+    <canvas id="canvas"> </canvas>
+    <footer class="footer mt-auto fixed-bottom py-3 bg-dark text-center">
+      <div class="container">
+        <span class="text-muted">&copy;Jasmine Christine.</span>
+        <a
+          href="https://www.linkedin.com/in/jasmine-risor/"
+          alt="linkedin"
+          target="_blank"
+          ><img class="footer-icon" src="../src/images/003-linkedin.png"
+        /></a>
+        <a
+          href="https://www.instagram.com/xlunarkitsunex/"
+          alt="instagram"
+          target="_blank"
+          ><img class="footer-icon" src="../src/images/004-instagram.png"
+        /></a>
+        <a href="https://github.com/JasChristine" alt="github" target="_blank"
+          ><img class="footer-icon" src="../src/images/002-github.png"
+        /></a>
+      </div>
+    </footer>
+    <script src="../src/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
